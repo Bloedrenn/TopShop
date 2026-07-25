@@ -9,7 +9,6 @@ def validate_username(username):
 
 def validate_password(password):
     if len(password) < 6:
-        print("❌ Ошибка: Пароль должен быть не менее 6 символов.")
         return False
     if not any(char.isdigit() for char in password):
         print("❌ Ошибка: Пароль должен содержать хотя бы одну цифру.")
