@@ -32,9 +32,6 @@ def register_user():
         print("❌ Ошибка: Пользователь с таким логином уже существует.")
         return
 
-    if not validate_username(username):
-        return
-
     password = input("Придумайте пароль: ").strip()
     if not validate_password(password):
         return
