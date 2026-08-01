@@ -11,7 +11,7 @@ PRODUCTS_CATALOG = [
 ]
 
 def search_products(query="", category=None, max_price=None):
-    """Ищет товары по названию, категории и максимальной цене."""
+    """Ищет товары, категории и максимальной цене."""
     results = []
     query = query.lower().strip()
 
