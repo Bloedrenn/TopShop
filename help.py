@@ -1,1 +1,1 @@
-print("Привет JOKER")
+print("Привет BATMAN")
