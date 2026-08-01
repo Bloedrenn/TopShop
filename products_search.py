@@ -7,7 +7,7 @@ PRODUCTS_CATALOG = [
     {"id": 5, "name": "Кожаный кошелек", "category": "Аксессуары", "price": 2900},
     {"id": 6, "name": "Кроссовки беговые", "category": "Обувь", "price": 6800},
     {"id": 7, "name": "Зимняя куртка", "category": "Одежда", "price": 12000},
-    {"id": 8, "name": "Футболка хлопковая", "category": "Одежда", "price": 1500},
+    {"id": 8, "name": "Футболка хлопкeqweqовая", "category": "Одежда", "price": 1500},
 ]
 
 def search_products(query="", category=None, max_price=None):
