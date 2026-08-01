@@ -1,6 +1,6 @@
 def run_login():
     print("\n--- СТРАНИЦА ВХОДА ---")
-    username = input("Введите логин: ").strip()
+    username = input("Введите: ").strip()
     password = input("Введите пароль: ").strip()
 
     # Проверяем данные по нашей общей базе
